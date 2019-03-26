@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Naoufal
- * Date: 24/03/2019
- * Time: 14:29
- */
 
 namespace App\Controller;
 
@@ -16,7 +10,7 @@ class LuckyController extends AbstractController
 {
     /**
      * @Route("/lucky/number")
-    */
+     */
     public function number()
     {
         $number = random_int(0, 100);

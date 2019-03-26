@@ -24,7 +24,6 @@ class Kernel extends BaseKernel
             }
         }
     }
-//comenta
     protected function configureContainer(ContainerBuilder $container, LoaderInterface $loader): void
     {
         $container->addResource(new FileResource($this->getProjectDir().'/config/bundles.php'));
